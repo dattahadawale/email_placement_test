@@ -170,4 +170,3 @@ def check_all_mailboxes(accounts: List[Dict], domains: List[str], hours_back: in
                 errors.append({"Mailbox": acc["email"], "Error": str(e)})
 
     return all_results, errors
-
